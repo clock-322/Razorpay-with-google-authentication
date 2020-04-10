@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+      <meta http-equiv="X-UA-Compatible" content="IE=10" />
+      <meta name = "format-detection" content = "telephone=no" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+      
+      <title>TEST</title>
+      <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/hbelectrical.css" media="all" />
+      <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/pDetail.css" media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet"> 
+      <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-1.9.1.js"></script>
+
+
+      <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/css/login.css" media="all" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" media="all" />
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+      <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+      
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  
+
+    <div id="content"></div>
+
+    
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script type="text/javascript" src="%PUBLIC_URL%/js/home_slider.js"></script>
+<script>
+jQuery(function() {
+  jQuery('#slides').slidesjs({
+	width: 1700,
+	height: 671,	 play: {      active: true,      auto: true,      interval: 5000,      swap: true,      pauseOnHover: true,      restartDelay: 2500   }
+  });
+});
+ 
+jQuery('.mobile_menu').click(function(){
+jQuery(this).toggleClass('close_menu');
+jQuery('.navigation').slideToggle();  
+}); 
+
+var wid_win = jQuery(window).width();
+if(wid_win < 960) {
+jQuery('.navigation > ul > li.parent > a').click(function() {
+jQuery(this).next('ul').slideToggle();
+jQuery(this).toggleClass('actsub');
+return false;
+});
+}
+
+var wid_win = jQuery(window).width();
+if(wid_win < 767) {
+jQuery('.bottomlinks h2 a').click(function () {
+jQuery(this).toggleClass('arrow_change');
+jQuery(this).parent().next('ul').slideToggle();
+return false;
+});
+}
+</script>
+  </body>
+</html>

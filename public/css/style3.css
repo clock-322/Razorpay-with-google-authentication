@@ -1,0 +1,49 @@
+/*Common Css*/
+*{padding:0; margin:0; box-sizing:border-box}
+h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
+li{list-style-type:none}
+body{font-size:14px; font-family: 'Poppins', sans-serif; background-color:#CCCC}
+textarea{font-size:14px; font-family: 'Poppins', sans-serif;}
+.container-fluid{width:100%; float:right}
+.container{max-width:1300px; margin:0 auto}
+img{max-width:100%; display:block}
+
+.logo{background-color:#ffff; border-radius:4px; width:50%; margin:15% 0 0 25%; display:inline-block}
+.logo img{width:40%; margin:10% 0 0 30%;}
+
+.logo form{width:30%; text-align:center; margin:10% 0 0 19%;}
+.logo form input[type=text]{margin:5%; padding:10px; width:200%;  border-radius:4px; background-color:#FFF; border:1px solid #999}
+.logo form button{width:200%; padding:10px; margin:5%; color:#FFF; background-color:#a50146; border-radius:30px; border:none; font-weight:500; font-size:18px; margin-bottom:45%}
+
+.logo h3{text-align:center; padding:5px}
+.logo h4{text-align:center; color:#a50146; padding:5px}
+.logo h4 a{color:#a50146; text-decoration:none}
+
+
+.logo2{border-radius:4px; width:50%; margin:10% 0 0 25%; display:inline-block; background-color:#FFF}
+.logo2 img{width:40%; margin:10% 0 0 30%;}
+
+.logo2 form{width:100%; margin-top:10%;}
+.logo2 form ul li input[type=text]{padding:10px; width:98%; color:#000; margin:5px; border-radius:4px; border:1px solid #999 }
+.logo2 form ul li select{padding:10px; width:98%; color:#000; margin:5px; border:1px solid #999; border-radius:4px}
+.logo2 form ul li option{font-size:14px; color:#999}
+.logo2 form ul li:nth-child(1) input[type=text]{float:left; width:48%;}
+.logo2 form ul li:nth-child(2) input[type=text]{width:48%; float:left;}
+.logo2 form button{width:100%; padding:10px; margin:10px 0 45px 0; color:#FFF; background-color:#a50146; border-radius:30px; border:none; font-weight:500; font-size:18px;}
+
+.logo2 h3{text-align:center; padding:5px}
+.logo2 h4{text-align:center; color:#a50146; padding:5px}
+.logo2 h4 a{color:#a50146; text-decoration:none}
+
+.logo3{margin:10% 0 0 25%; background-color:#FFF; border-radius:4px; width:50%}
+.polbol{width:40%; margin-left:30%}
+.logo3 h3{font-size:22px; color:#a50146; font-weight:600; width:50%; background-color:#FFF; margin-top:17%; padding:2%}
+.logo3 form button{width:500px; background-color:#a50146; color:#FFF; height:50px; font-size:18px; border-radius:20px; margin:17% 0 0 10%; border:none}
+.logo3 ul li{display:inline-block; width:25%; color:#a50146; font-weight:600; text-align:center; border:1px solid #a50146; font-size:18px; margin-left:6%; border-radius:10px; text-decoration:none;}
+.logo3 ul li a{text-decoration:none; color:#a50146}
+.logo3 ul li img{border-radius:10px}
+.logo3 p{font-size:18px; font-weight:700; text-align:center; margin-top:5%}
+.logo3 h4{font-size:14px; color:#a50146; font-weight:700; text-align:center}
+.logo3 h4 a{color:#a50146; text-decoration:none}
+
+

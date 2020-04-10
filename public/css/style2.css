@@ -1,0 +1,15 @@
+/*Common Css*/
+*{padding:0; margin:0; box-sizing:border-box}
+h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
+li{list-style-type:none}
+body{font-size:14px; font-family: 'Poppins', sans-serif; background-color:#edf0f5}
+textarea{font-size:14px; font-family: 'Poppins', sans-serif;}
+.container-fluid{width:100%; float:right}
+.container{max-width:1300px; margin:0 auto}
+img{max-width:100%; display:block}
+
+.recent{background-color:#a50146; width:100%; padding:15px; font-size:24px; color:#FFF; font-weight:600}
+.notification {display:inline-block}
+.notification li{width:100%;font-size:20px; background-color:#FFF; display:inline-block; margin-top:10px; padding:18px}
+.notification li:hover{background-color:#dde6f7}
+.notification li img{height:60px; width:60px; border-radius:50%; display:inline-block; vertical-align:middle;margin-right:50px}

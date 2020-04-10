@@ -1,0 +1,58 @@
+/*Common Css*/
+*{padding:0; margin:0; box-sizing:border-box}
+h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
+li{list-style-type:none}
+body{font-size:14px; font-family: 'Poppins', sans-serif; background-color:#edf0f5}
+textarea{font-size:14px; font-family: 'Poppins', sans-serif;}
+.container-fluid{width:100%; float:right}
+.container{max-width:1300px; margin:0 auto}
+img{max-width:100%; display:block}
+
+.banner{background-image:url(../images/microphone.jpg); width:100%; height:500px; background-repeat:no-repeat; background-size:cover}
+.follow_journalist{color:#FFF; margin:5%}
+.follow_journalist h2{font-size:40px} 
+.follow_journalist h2 span{font-size:70px}
+.follow_journalist p{margin-top:40px; font-size:18px}
+.follow_journalist ul li{display:inline-block; margin-top:30px}
+
+.leader h3{color:#a50146; padding:8px; font-size:20px; background-color:#FFF; margin-top:10px; width:100%}
+
+.politician{margin-top:5px;}
+.politician img{padding:20px; width:}
+.politician strong{color:#a50146; font-weight:600; font-size:20px}
+.politician ul li{background-color:#FFF; display:inline-block; width:20%; margin:30px; text-align:center; }
+.politician p{color:#999}
+.politician span{color:#a50146}
+.politician h3{color:#a50146; padding:6px; border:1px solid #a50146; width:70%; margin-left:37px; cursor:pointer}
+.politician h3:hover{background-color:#a50146; color:#FFF}
+
+.politician2{margin-top:5px;}
+.politician2 img{padding:20px; width:}
+.politician2 strong{color:#a50146; font-weight:600; font-size:20px}
+.politician2 ul li{background-color:#FFF; display:inline-block; width:20%; margin:30px; text-align:center; }
+.politician2 p{color:#999}
+.politician2 span{color:#a50146}
+.politician2 h3{color:#a50146; padding:6px; border:1px solid #a50146; width:70%; margin-left:37px; cursor:pointer}
+.politician2 h3:hover{background-color:#a50146; color:#FFF}
+
+
+.politician3{margin-top:5px;}
+.politician3 img{padding:20px; width:}
+.politician3 strong{color:#a50146; font-weight:600; font-size:20px}
+.politician3 ul li{background-color:#FFF; display:inline-block; width:20%; margin:30px; text-align:center; }
+.politician3 p{color:#999}
+.politician3 span{color:#a50146}
+.politician3 h3{color:#a50146; padding:6px; border:1px solid #a50146; width:70%; margin-left:37px; cursor:pointer}
+.politician3 h3:hover{background-color:#a50146; color:#FFF}
+
+
+
+.politician4{margin-top:5px;}
+.politician4 img{padding:20px; width:}
+.politician4 strong{color:#a50146; font-weight:600; font-size:20px}
+.politician4 ul li{background-color:#FFF; display:inline-block; width:20%; margin:30px; text-align:center; }
+.politician4 p{color:#999}
+.politician4 span{color:#a50146}
+.politician4 h3{color:#a50146; padding:6px; border:1px solid #a50146; width:70%; margin-left:37px; cursor:pointer}
+.politician4 h3:hover{background-color:#a50146; color:#FFF}
+
